@@ -12,4 +12,4 @@
 // aggiungere la cartella dei moduli scaricati in .gitignore :wink:
 
 // inizzializziamo npm e sriamo il messaggio da mostrare nel terminale
-console.log('hello world');
+console.log('hello world!');
