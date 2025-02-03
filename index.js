@@ -13,3 +13,7 @@
 
 // inizzializziamo npm e sriamo il messaggio da mostrare nel terminale
 console.log('hello world!');
+// aggiungiuamo lo script start
+
+// aggiungiamo lo script watch e scrivamo il nuovo console.log
+console.log('hello boolean');
