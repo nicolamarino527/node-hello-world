@@ -11,9 +11,21 @@
 // Proviamo a installare un pacchetto, (tipo chalk) proviamo ad utilizzarlo e 
 // aggiungere la cartella dei moduli scaricati in .gitignore :wink:
 
+
+
 // inizzializziamo npm e sriamo il messaggio da mostrare nel terminale
 console.log('hello world!');
 // aggiungiuamo lo script start
 
 // aggiungiamo lo script watch e scrivamo il nuovo console.log
 console.log('hello boolean');
+
+// scarichiamo chalk
+import chalk from "chalk";
+
+// usiamo chalk
+console.log(chalk.red("Scritta rossa"));
+console.log(chalk.green("Scritta  verde"));
+console.log(chalk.blue("Scritta blu"));
+console.log(chalk.yellow("Scritta gialla"));
+console.log(chalk.black("Scritta nera"))

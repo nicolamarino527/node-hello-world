@@ -8,7 +8,7 @@
     "start": "node index.js",
     "watch": "node --watch index.js"
   },
-  "type" : "module",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nicolamarino527/node-hello-world.git"
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/nicolamarino527/node-hello-world/issues"
   },
-  "homepage": "https://github.com/nicolamarino527/node-hello-world#readme"
+  "homepage": "https://github.com/nicolamarino527/node-hello-world#readme",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
 }
